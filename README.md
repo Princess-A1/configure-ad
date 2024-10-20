@@ -31,7 +31,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 		- Image: Windows Server 2022
 		- Take note of the virtual network (vNet) that is automatically created
        
-image
+![Screenshot 163722](https://github.com/user-attachments/assets/f99f64bf-011b-4730-b693-e34ada66cf36)
+
 
 
 
