@@ -31,7 +31,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 		- Image: Windows Server 2022
 		- Take note of the virtual network (vNet) that is automatically created
        
-![Screenshot 163722](https://github.com/user-attachments/assets/f99f64bf-011b-4730-b693-e34ada66cf36)
+![Screenshot 164323](https://github.com/user-attachments/assets/374cc3d1-82c3-49e1-91f2-48a1ee8f7b6a)
+
 
 
 
@@ -45,12 +46,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 		- Change the assignment from dynamic to static 
 			- This ensures DC-1's IP address will not change
 	   
-![Step 1
-![Step 1
-![Step 1
-
-
-
+![Screenshot 164131](https://github.com/user-attachments/assets/2bf567f4-cd8c-4541-9f4f-cc93b06977a0)
+![Screenshot 164542](https://github.com/user-attachments/assets/249c5583-e3ec-48fa-a807-2208118b0310)
+![Screenshot 164854](https://github.com/user-attachments/assets/a765d83a-a41a-401a-b34f-70c124a5f0b4)
 
 
 	- The second virtual machine will be the Client
