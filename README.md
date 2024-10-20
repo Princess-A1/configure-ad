@@ -56,10 +56,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 		- Image: Windows 10 Pro
 		- Use the same resource group and vNet as DC-1
 
-![Step 1
-![Step 1 
-
-
+![Screenshot 165830](https://github.com/user-attachments/assets/7e807ceb-b8bf-4c7e-93ef-215812e01cce)
+![Screenshot 170204](https://github.com/user-attachments/assets/3a1fa5a0-988f-4c35-830f-d2e294bfaa72)
 
 
 <h3>Step 2: Ensure Connectivity Between the Client and Domain Controller</h3>
@@ -71,22 +69,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- The ping request continually  times out due to the firewall settings
 		- To fix this, we need to enable ICMPv4 on DC-1's local Windows firewall
 
+![Screenshot 170322](https://github.com/user-attachments/assets/effdd7c9-c2cd-4ebb-8091-2ed3780bdfed)
 
-image
 	
 - Login to DC-1 using Microsoft Remote Desktop
 	- Start > Windows Administrative Tools > Windows Defender Firewall with Advanced Security > Inbound Rules
 	- Sort the list by protocols
 	- Find "Core Networking Diagnostics" and "ICMPv4" and enable these two inbound rules
 
-![image
-
+![Screenshot 170406](https://github.com/user-attachments/assets/f17f32cf-6503-4539-a4ce-ae93d23899cf)
 
 
 - Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
     
-
-image
+![Screenshot 170520](https://github.com/user-attachments/assets/1a722a59-ce07-4868-a0d0-5bd1edcf9210)
 
 
 <h3>Step 3: Install Active Directory</h3>
