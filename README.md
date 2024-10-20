@@ -77,7 +77,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Sort the list by protocols
 	- Find "Core Networking Diagnostics" and "ICMPv4" and enable these two inbound rules
 
-![Screenshot 170406](https://github.com/user-attachments/assets/f17f32cf-6503-4539-a4ce-ae93d23899cf)
+![Screenshot 170640](https://github.com/user-attachments/assets/def42f9d-24c5-4d93-adab-fc5f30e19de2)
+
 
 
 - Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
