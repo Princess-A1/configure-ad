@@ -1,5 +1,6 @@
 <p align="center">
-image
+![image](https://github.com/user-attachments/assets/8335e3ed-3c4b-4682-a0ce-5f20adbb9754)
+
 </p>
 
 <h1>On-Premises Active Directory Deployed in the Cloud (Azure)</h1>
