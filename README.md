@@ -96,16 +96,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Select Add Features > select Next
 	- Complete the installation
 
-![image
-![image
-
-
+![Screenshot 170846](https://github.com/user-attachments/assets/da0c7903-627a-4f6a-89b4-3a36ab147961)
+![Screenshot 170938](https://github.com/user-attachments/assets/ab870e25-aeae-447a-b5f0-2eeb106f74b1)
 
 - At the top right of the Server Manager Dashboard, click on the flag
 - Select "Promote This Server to a Domain Controller"
 
+![Screenshot 171126](https://github.com/user-attachments/assets/751397ff-b7f8-46bd-9990-88e97ee817a6)
 
-image 
 	
  - Select "Add a New Forest"
  	- Root domain name: mydomain.com
@@ -114,16 +112,14 @@ image
 - Select Next and follow the prompts
 - Select Install to complete the installation
 
+![Screenshot 113132](https://github.com/user-attachments/assets/76cef94d-ad36-4130-a9dc-b32c7e4a52e1)
 
-![image
 
 	
 - DC-1 will automatically restart
 - Log back into DC-1 as user: mydomain.com\labuser               
 
-image
-
-	
+![Screenshot 113301](https://github.com/user-attachments/assets/6b9399af-9126-4262-bafa-356506d2e97a)
 
 
 <h3>Step 4: Create an Admin and Normal User Account in Active Directory v1.15.8</h3>
@@ -132,7 +128,7 @@ image
 - Click Tools at the top-right of the screen
 - Select Active Directory Users and Computers
 
-image
+![Screenshot 113334](https://github.com/user-attachments/assets/f4857405-5f84-49a5-aea9-914fd95b15dc)
 
 	
 - Right-click mydomain.com > New > Select Oranizational Unit (OU)
@@ -140,8 +136,7 @@ image
 	- Name the first "_EMPLOYEES"
 	- Name the second "_ADMINS"
 	
-image
-
+![Screenshot 113448](https://github.com/user-attachments/assets/88add553-2cc8-4ae9-ba3e-c6987be62723)
 	
 	
 - Right-click mydomain.com and click Referesh to sort the new organizational units to the top
@@ -153,9 +148,8 @@ image
 	- Create a password
 	- Uncheck all boxes
 	- Select Next and then select Finish
-![image
-![image
-
+![Screenshot 113622](https://github.com/user-attachments/assets/20b8f246-7700-4195-8df4-313aa2fcb15b)
+![Screenshot 113736](https://github.com/user-attachments/assets/d79f0d87-f4f9-4970-8546-8f32d564978c)
 
 	
 - Go to the _ADMINS OU
@@ -165,13 +159,9 @@ image
 	- Select "Check Names" > OK > Apply
 - Log out of DC-1 as "labuser" and log back in as “mydomain.com\jane_admin”
 
-
-![image
-![image
-
-
+![Screenshot 114027](https://github.com/user-attachments/assets/27a9556e-d57c-4bef-987a-d65dcf2a47f3)
+![Screenshot 114156](https://github.com/user-attachments/assets/476edb52-a11e-44e3-bfeb-1be3b2026a16)
  
-     
 
 <h3>Step 5: Join Client-1 to your domain (mydomain.com)
 </h3>
@@ -184,12 +174,9 @@ image
 - Click Save
 - After it is done updating, select Restart and select Yes
 
-![image
-![image
-![image
-
-
-
+![Screenshot 114526](https://github.com/user-attachments/assets/b808428b-11c4-4863-b89c-050535ea28d8)
+![Screenshot 114728](https://github.com/user-attachments/assets/636cffe9-4a8d-42bf-a584-58dfbff59a53)
+![Screenshot 114935](https://github.com/user-attachments/assets/7449d9a5-4dfb-4f3e-97f3-ac7e4fc0ffc8)
 
 - Log back into Client-1 using Microsoft Remote Desktop as the original local admin (labuser)
 - Right-click the Start menu and select System
@@ -200,8 +187,8 @@ image
 	- Type in password and press OK
 - Restart the computer 			
 
+![Screenshot 115056](https://github.com/user-attachments/assets/f7370d9a-6820-4ef8-a5bf-2f7fea5b3ecc)
 
-![image
 ![image
 
 
