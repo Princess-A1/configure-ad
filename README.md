@@ -1,5 +1,5 @@
 <p align="center">
-![image](https://github.com/user-attachments/assets/8335e3ed-3c4b-4682-a0ce-5f20adbb9754)
+![microsoft-azure-logo](https://github.com/user-attachments/assets/8beb239f-2358-49fb-85e7-b7321ded5b32)
 
 </p>
 
