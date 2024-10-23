@@ -33,11 +33,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
        
 ![Screenshot 164323](https://github.com/user-attachments/assets/374cc3d1-82c3-49e1-91f2-48a1ee8f7b6a)
 
-
-
-
-
-
 	- Set DC-1's Virtual Network Interface Card (vNIC) private IP address to be static
 		- Go to DC-1's network settings
 		- Select Networking
@@ -79,8 +74,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![Screenshot 170640](https://github.com/user-attachments/assets/def42f9d-24c5-4d93-adab-fc5f30e19de2)
 
-
-
 - Log back into Client-1 and the command line will automatically begin pinging DC-1 successfully
     
 ![Screenshot 170520](https://github.com/user-attachments/assets/1a722a59-ce07-4868-a0d0-5bd1edcf9210)
@@ -103,7 +96,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select "Promote This Server to a Domain Controller"
 
 ![Screenshot 171126](https://github.com/user-attachments/assets/751397ff-b7f8-46bd-9990-88e97ee817a6)
-
 	
  - Select "Add a New Forest"
  	- Root domain name: mydomain.com
@@ -113,8 +105,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select Install to complete the installation
 
 ![Screenshot 113132](https://github.com/user-attachments/assets/76cef94d-ad36-4130-a9dc-b32c7e4a52e1)
-
-
 	
 - DC-1 will automatically restart
 - Log back into DC-1 as user: mydomain.com\labuser               
@@ -129,7 +119,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select Active Directory Users and Computers
 
 ![Screenshot 113334](https://github.com/user-attachments/assets/f4857405-5f84-49a5-aea9-914fd95b15dc)
-
 	
 - Right-click mydomain.com > New > Select Oranizational Unit (OU)
 - Create two OUs
@@ -137,7 +126,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 	- Name the second "_ADMINS"
 	
 ![Screenshot 113448](https://github.com/user-attachments/assets/88add553-2cc8-4ae9-ba3e-c6987be62723)
-	
 	
 - Right-click mydomain.com and click Referesh to sort the new organizational units to the top
 - Go to the _ADMINS OU
@@ -151,7 +139,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![Screenshot 113622](https://github.com/user-attachments/assets/20b8f246-7700-4195-8df4-313aa2fcb15b)
 ![Screenshot 113736](https://github.com/user-attachments/assets/d79f0d87-f4f9-4970-8546-8f32d564978c)
 
-	
 - Go to the _ADMINS OU
 - Right-click Jane Doe > select Properties
 	- Click the tab named "Member of" > select Add
@@ -188,9 +175,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Restart the computer 			
 
 ![Screenshot 115056](https://github.com/user-attachments/assets/f7370d9a-6820-4ef8-a5bf-2f7fea5b3ecc)
-
-![image
-
+![Screenshot 115419](https://github.com/user-attachments/assets/780c5a34-b2f3-427e-b880-1f5321c173b9)
 
 
 <h3>Step 6: Setup Remote Desktop for non-administrative users on Client-1
@@ -204,10 +189,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Type in the name of your domain users
 - Select "Check Names" > OK > OK
 
- 
-![image
-![image
-
+![Screenshot 115744](https://github.com/user-attachments/assets/afb999ed-1845-4610-971c-d678acf853da)
+![Screenshot 120224](https://github.com/user-attachments/assets/391b455b-f95b-4d58-b687-15f9154ec2ca)
 
 
 <h3>Step 7: Create as many additional users as you would like and attempt to log into Client-1 with one of the users' profiles
@@ -219,10 +202,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - At the top-left of the screen select New Script and paste the contents of the following script into it
 	- You can find the script [here](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 
-![image
-![image
-
-
+![Screenshot 120549](https://github.com/user-attachments/assets/73ed5905-fbf2-4c72-a206-841fc4a5fd29)
+![Screenshot 120638](https://github.com/user-attachments/assets/49f7e337-1380-415f-af89-2b599776fd31)
 
 - Click the green arrow button near the top-middle of the screen
 	- This will run the script
@@ -231,12 +212,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - You can now log into Client-1 with one of the accounts that were created
 	- Try logging into Client-1 as user "base.milu" using the password "Password1"
 
-![image
-![image
-![image
-![image
-![image
-
+![Screenshot 120818](https://github.com/user-attachments/assets/747d3200-75bb-485b-b76d-82678dea1933)
+![Screenshot 120859](https://github.com/user-attachments/assets/cd4dddc4-f674-4917-a1a0-0647a793c445)
+![Screenshot 121004](https://github.com/user-attachments/assets/101851a9-a888-44ba-80b7-77dc1bdcde1a)
+![Screenshot 121256](https://github.com/user-attachments/assets/af6d25ee-e184-4866-8350-b38d02a73073)
+![Screenshot 121326](https://github.com/user-attachments/assets/b33a4c47-b1eb-48c3-a6db-12e672e32966)
 
 
 You have implementated on-premises Active Directory and created users within an Azure virtual machine!
