@@ -61,7 +61,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Search for Command Prompt and open it
 - Ping DC-1's private IP Address (for example, 10.0.0.4)
 	- Type "ping -t 10.0.0.4" into the command-line interface
-	- The ping request continually  times out due to the firewall settings
+	- The ping request will continuously time out due to the firewall settings
 		- To fix this, we need to enable ICMPv4 on DC-1's local Windows firewall
 
 ![Screenshot 170322](https://github.com/user-attachments/assets/effdd7c9-c2cd-4ebb-8091-2ed3780bdfed)
