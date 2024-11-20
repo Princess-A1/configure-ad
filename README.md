@@ -211,7 +211,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Once the users have been created, go back to Active Directory Users and Computers > mydomain.com > _EMPLOYEES
 	- You will see all the accounts that were created
 - You can now log into Client-1 with one of the accounts that were created
-	- Try logging into Client-1 as user "base.milu" using the password "Password1"
+	- Try logging into Client-1 as user "bec.kutaf" using the password "Password1"
 
 ![Screenshot 120818](https://github.com/user-attachments/assets/747d3200-75bb-485b-b76d-82678dea1933)
 ![Screenshot 120859](https://github.com/user-attachments/assets/cd4dddc4-f674-4917-a1a0-0647a793c445)
